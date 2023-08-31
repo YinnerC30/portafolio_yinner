@@ -1,0 +1,11 @@
+--Colores que usa Vercel--
+
+-Modo Claro
+Blanco: ffffff
+Negro: 000000
+Azul: 0091ea
+Gris: d2d2d2
+Rosa: eb367f
+Naranja: fc6d26
+
+-Modo Oscuro

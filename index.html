@@ -1,140 +1,169 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="/js/script.js"></script>
+    <title>Portafolio - Yinner Chilito</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/normalize.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <script defer src="/js/script.js"></script>
-  <title>Portafolio - Yinner Chilito</title>
-</head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="#about" class="navbar__item ">Sobre mí</a>
+        <a href="#projects" class="navbar__item ">Proyectos</a>
+        <a href="#skills" class="navbar__item ">Habilidades</a>
+        <a href="#education" class="navbar__item ">Educación</a>
+        <a href="#contact" class="navbar__item ">Contacto</a>
 
-<body>
-  <header>
-    <nav>
-      <a href="#about">Sobre mí</a>
-      <a href="#projects">Proyectos</a>
-      <a href="#skills">Habilidades</a>
-      <a href="#education">Educación</a>
-      <a href="#contact">Contacto</a>
-
-      <select name="" id="">
+        <!--  <select name="" id="">
         <option value="">Light</option>
         <option value="">Dark</option>
-      </select>
-    </nav>
+      </select> -->
+      </nav>
 
-    <!-- <img
+      <!-- <img
         src="/assets/images/me photo.jpg"
         alt="Foto de perfil de Yinner Chilito"
       /> -->
-    <h1>Hola! Soy Yinner Chilito - Developer Backend</h1>
-  </header>
-  <article id="about">
-    <h2>Sobre mí</h2>
-    <p>
-      Soy un analista y desarrollador de sistemas de información, con
-      experiencia en el ciclo de vida de desarrollo de software, como lo es la
-      recolección de requisitos, diseño, programación (especialidad en
-      Backend), pruebas y despliegue. Me encanta crear aplicaciones que ayuden
-      a las personas a realizar sus tareas de forma rápida y efectiva, soy una
-      persona creativa, proactiva, orientada al cliente y al logro de
-      resultados. Disfruto trabajar en equipo y aprender constantemente nuevas
-      tecnologías y herramientas.
-    </p>
-    <a href="assets/CV-Yinner-Chilito.pdf">Descarga mi CV</a>
-  </article>
-  <article id="education">
-    <h2>Educación</h2>
-    <ul>
-      <li>Estudiante de Ing. de Software</li>
-      <li>Tecnólogo de Análisis y desarrollo de sistemas de información</li>
-      <li>Desarrollo de Software - Backend Java</li>
-      <li>Diplomado en Desarrollo de aplicaciones Web</li>
-      <li>Auditor Interno ISO/IEC 27001:2022</li>
-    </ul>
-  </article>
-  <article id="projects">
-    <h2>Proyectos</h2>
-    <ul>
-      <li>Notes reminder</li>
-      <li>Foro Alura</li>
-      <li>Hotel Alura</li>
-      <li>Convertidor de divisas</li>
-      <li>Encriptador de texto</li>
-      <li>Books New Life</li>
-      <li>AbueMarket</li>
-    </ul>
-  </article>
-  <article>
-    <h2>Experiencia laboral</h2>
-    <ul>
-      <li>Analista y Desarrollador .NET</li>
-    </ul>
-  </article>
+      <h1 class="title_page ">Hola! Soy Yinner Chilito, Desarrollador Backend</h1>
+    </header>
+    <div class="container">
+      <article id="about" class="container__article">
+        <h2 class="about__title ">Sobre mí</h2>
+        <p class="about__paragraph ">
+          Soy un analista y desarrollador de sistemas de información, con
+          experiencia en el ciclo de vida de desarrollo de software, como lo es
+          la recolección de requisitos, diseño, programación <strong>(especialidad en
+          Backend)</strong>, pruebas y despliegue. Me encanta crear aplicaciones que
+          ayuden a las personas a realizar sus tareas de forma rápida y
+          efectiva, soy una persona creativa, orientada al cliente y al logro de
+          resultados. Disfruto trabajar en equipo y aprender constantemente
+          nuevas tecnologías y herramientas.
+        </p>
+        <a href="assets/CV-Yinner-Chilito.pdf" class="about__download_link "
+          >Descarga mi CV</a
+        >
+      </article>
 
-  <article>
-    <h2>Habilidades y conocimientos</h2>
-    <h3>Técnicas</h3>
-    <ul>
-      <li>Análisis de requerimientos</li>
-      <li>Programación Backend</li>
-      <li>Aplicación de pruebas unitarias</li>
-      <li>Despliegue de aplicaciones</li>
-      <li>Analista de datos</li>
-    </ul>
-    <ul>
-      <li>Java</li>
-      <li>Spring Boot</li>
-      <li>Python</li>
-      <li>Django Framework</li>
-      <li>JavaScript</li>
-      <li>C#</li>
-      <li>.NET Framework</li>
-      <li>Git</li>
-      <li>GitHub</li>
-      <li>BitBucket</li>
-      <li>MySQL</li>
-      <li>SQL Server</li>
-      <li>PostgreSQL</li>
-      <li>MongoDB</li>
-      <li>OCI (Oracle Cloud Infrastructure)</li>
-      <li>Azure</li>
-    </ul>
-    <h3>Soft skills</h3>
-    <ul>
-      <li>Comunicación asertiva</li>
-      <li>Trabajo en equipo</li>
-      <li>Trabajo en equipo</li>
-      <li>Resolución de problemas</li>
-      <li>Metodologías ágiles - SCRUM Y KANBAN</li>
-    </ul>
-    <h3>Certificaciones</h3>
-    <ul>
-      <li>Fundamentos de pruebas de Software</li>
-      <li>Fundamentos en analítica de datos</li>
-      <li>Programa Oracle Next Education F2 T4 Back-end</li>
-      <li>
-        Oracle Cloud Infrastructure 2023 Certified Foundations Associate
-      </li>
-      <li>
-        Oracle Cloud Data Management 2023 Certified Foundations Associate
-      </li>
-    </ul>
-  </article>
+      <article id="education" class="container__article">
+        <h2 class="education__title ">Educación</h2>
+        <ul class="degrees">
+          <li class="degree__item ">Estudiante de Ing. de Software</li>
+          <li class="degree__item ">
+            Tecnólogo de Análisis y desarrollo de sistemas de información
+          </li>
+          <li class="degree__item ">Desarrollo de Software - Backend Java</li>
+          <li class="degree__item ">
+            Diplomado en Desarrollo de aplicaciones Web
+          </li>
+          <li class="degree__item ">Auditor Interno ISO/IEC 27001:2022</li>
+        </ul>
+      </article>
+      <article id="projects" class="container__article">
+        <h2 class="projects__title ">Proyectos</h2>
+        <ul class="projects">
+          <li class="project__item ">Notes reminder</li>
+          <li class="project__item ">Foro Alura</li>
+          <li class="project__item ">Hotel Alura</li>
+          <li class="project__item ">Convertidor de divisas</li>
+          <li class="project__item ">Encriptador de texto</li>
+          <li class="project__item ">Books New Life</li>
+          <li class="project__item ">AbueMarket</li>
+        </ul>
+      </article>
+      <article class="container__article">
+        <h2 class="experience__title ">Experiencia laboral</h2>
+        <ul class="experiences">
+          <li class="experience___item ">Analista y Desarrollador .NET</li>
+        </ul>
+      </article>
 
-  <article id="contact">
-    <h2>Redes sociales y contacto</h2>
-    <ul>
-      <li>
-        <a href="https://www.linkedin.com/in/yinner-stiven-chilito-medina/" target="_blank">LinkedIn</a>
-      </li>
-      <li><a href="https://github.com/YinnerC30/" target="_blank">GitHub</a></li>
-      <li><a href="mailto:yinnermedina30@gmail.com" target="_blank">Email</a></li>
-      <li><a href="https://wa.me/+573147736549" target="_blank">WhatsApp</a></li>
-    </ul>
-  </article>
-</body>
+      <article class="container__article">
+        <h2 class="skills__title ">Habilidades y conocimientos</h2>
+        <h3 class="skills__technical ">Técnicas</h3>
+        <ul>
+          <li class="skills__technical__item ">Análisis de requerimientos</li>
+          <li class="skills__technical__item ">Programación Backend</li>
+          <li class="skills__technical__item ">
+            Aplicación de pruebas unitarias
+          </li>
+          <li class="skills__technical__item ">Despliegue de aplicaciones</li>
+          <li class="skills__technical__item ">Analista de datos</li>
+        </ul>
+        <ul>
+          <li class="skills__technical__item ">Java</li>
+          <li class="skills__technical__item ">Spring Boot</li>
+          <li class="skills__technical__item ">Python</li>
+          <li class="skills__technical__item ">Django Framework</li>
+          <li class="skills__technical__item ">JavaScript</li>
+          <li class="skills__technical__item ">C#</li>
+          <li class="skills__technical__item ">.NET Framework</li>
+          <li class="skills__technical__item ">Git</li>
+          <li class="skills__technical__item ">GitHub</li>
+          <li class="skills__technical__item ">BitBucket</li>
+          <li class="skills__technical__item ">MySQL</li>
+          <li class="skills__technical__item ">SQL Server</li>
+          <li class="skills__technical__item ">PostgreSQL</li>
+          <li class="skills__technical__item ">MongoDB</li>
+          <li class="skills__technical__item ">
+            OCI (Oracle Cloud Infrastructure)
+          </li>
+          <li class="skills__technical__item ">Azure</li>
+        </ul>
+        <h3 class="skills__title ">Soft skills</h3>
+        <ul class="skills__soft ">
+          <li class="skills__soft__item ">Comunicación asertiva</li>
+          <li class="skills__soft__item ">Trabajo en equipo</li>
+          <li class="skills__soft__item ">Trabajo en equipo</li>
+          <li class="skills__soft__item ">Resolución de problemas</li>
+          <li class="skills__soft__item ">
+            Metodologías ágiles - SCRUM Y KANBAN
+          </li>
+        </ul>
+        <h3 class="skills__title ">Certificaciones</h3>
+        <ul class="skills__certified " >
+          <li class="skills__certified__item ">
+            Fundamentos de pruebas de Software
+          </li>
+          <li class="skills__certified__item ">
+            Fundamentos en analítica de datos
+          </li>
+          <li class="skills__certified__item ">
+            Programa Oracle Next Education F2 T4 Back-end
+          </li>
+          <li class="skills__certified__item ">
+            Oracle Cloud Infrastructure 2023 Certified Foundations Associate
+          </li>
+          <li class="skills__certified__item ">
+            Oracle Cloud Data Management 2023 Certified Foundations Associate
+          </li>
+        </ul>
+      </article>
 
+      <article id="contact" class="container__article">
+        <h2 class="contact__title">Redes sociales y contacto</h2>
+        <ul class="contact__social_medias">
+          <li class="contact__social_medias__item">
+            <a
+              href="https://www.linkedin.com/in/yinner-stiven-chilito-medina/"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </li>
+          <li class="contact__social_medias__item">
+            <a href="https://github.com/YinnerC30/" target="_blank">GitHub</a>
+          </li>
+          <li class="contact__social_medias__item">
+            <a href="mailto:yinnermedina30@gmail.com" target="_blank">Email</a>
+          </li>
+          <li class="contact__social_medias__item">
+            <a href="https://wa.me/+573147736549" target="_blank">WhatsApp</a>
+          </li>
+        </ul>
+      </article>
+    </div>
+  </body>
 </html>

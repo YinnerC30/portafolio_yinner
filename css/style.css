@@ -198,6 +198,11 @@ nav.navbar a:hover {
   justify-content: space-evenly;
 }
 
+.about_texts {
+  /* border: 1px solid black; */
+  width: 65%;
+}
+
 .title__article {
   font-family: var(--font-family-OpenSans);
   font-weight: bold;
@@ -206,7 +211,6 @@ nav.navbar a:hover {
 }
 
 .about__paragraph {
-  width: 65%;
   line-height: 1.5;
   padding-bottom: 20px;
 
